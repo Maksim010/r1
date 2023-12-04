@@ -11,6 +11,10 @@ public class PlusMinus {
         int number=22;
         System.out.println(number/10==number%10?true:false);
 
+        //найти максимальное из 2 чисел
+        int a=3;int b=2;
+        System.out.println(a>b?a:b);
+
 
     }
 }
