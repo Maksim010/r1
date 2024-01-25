@@ -4,9 +4,9 @@ public class Task4_11 {
     public static void main(String[] args) {
         int[] arr={2,7,3,11,3,7,2};
 
-        System.out.println(isPrime(13));
-        System.out.println(allIsPrime(arr));
-        System.out.println(isSymmetric(arr));
+//        System.out.println(isPrime(13));
+//        System.out.println(allIsPrime(arr));
+//        System.out.println(isSymmetric(arr));
         System.out.println(allIsPrime(arr)&&isSymmetric(arr));
     }
 
@@ -18,7 +18,7 @@ public class Task4_11 {
         return true;
     }
     static boolean allIsPrime(int[]arr){
-        for(int i=0;i<arr.length;i++);
+        //for(int i=0;i<arr.length;i++);
         for(int n:arr) //foreach
             if(!isPrime(n))
                 return false;

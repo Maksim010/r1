@@ -10,10 +10,10 @@ public class Task5_90 {
         sum+=1./a;
         }
         System.out.println(sum);
-        //for(int i=1;i<=n;i++){
-          //  fact*=i;
-           // System.out.println(fact);
-        //}
+        for(int i=1;i<=n;i++){
+            fact*=i;
+            System.out.println(fact);
+        }
 
     }
 }
