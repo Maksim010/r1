@@ -35,6 +35,8 @@ public class Students {
         Collections.sort(students,new CompSurname());
         for(Student student:students)
             System.out.println(student.toString());
+
+
     }
 }
 
@@ -83,3 +85,5 @@ class CompSurname implements Comparator<Student>{
         return s1.getSurname().compareTo(s2.getSurname());
         }
     }
+
+
