@@ -22,7 +22,6 @@ public class Class {
         for(Book book:books)
             if(book.getYear()<=1999)
                 System.out.println(book);
-
     }
 }
 class Book implements Comparator<Book> {

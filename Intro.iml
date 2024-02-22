@@ -11,5 +11,8 @@
     <orderEntry type="library" name="C:\Users\gk\Downloads" level="project" />
     <orderEntry type="library" name="Downloads1" level="project" />
     <orderEntry type="library" name="Downloads2" level="project" />
+    <orderEntry type="library" name="google.guava" level="project" />
+    <orderEntry type="library" name="jgoodies.common" level="project" />
+    <orderEntry type="library" name="jgoodies.forms" level="project" />
   </component>
 </module>

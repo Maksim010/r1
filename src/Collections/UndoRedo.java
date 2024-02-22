@@ -30,7 +30,7 @@ public class UndoRedo extends JFrame {
         JButton bUndo = new JButton();
         bUndo.setText("Undo");
         bUndo.setBounds(200, 340, 80, 25);
-        //bUndo.addActionListener(new UndoListener());
+        bUndo.addActionListener(new UndoListener());
         add(bUndo);
         JButton bRedo = new JButton();
         bRedo.setText("Redo");
