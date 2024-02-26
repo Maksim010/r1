@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+    <books id="123214214">
+        <name>Name</name>
+        <date>2024-02-26T21:00:57.340+03:00</date>
+    </books>
+    <books id="2">
+        <name>Name 2</name>
+        <date>2024-02-26T21:00:57.341+03:00</date>
+    </books>
+    <books id="3">
+        <name>Name 3</name>
+        <date>2024-02-26T21:00:57.341+03:00</date>
+    </books>
+</books>

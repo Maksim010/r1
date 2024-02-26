@@ -20,6 +20,7 @@ public class L10n {
                 locale = new Locale("ru", "RU");
                 break;
 
+
         }
         ResourceBundle bundle = ResourceBundle.getBundle("properties", locale);
         System.out.println(bundle.getString("key"));
