@@ -15,7 +15,7 @@ public class ReadJson {
                 JSONTokener tokener = new JSONTokener(file);
                 JSONObject object = new JSONObject(tokener);
 
-//System.out.println(object.toString(4)); //Выводит все содержимое с отступами
+                System.out.println(object.toString(4)); //Выводит все содержимое с отступами
 
                 JSONArray persons = object.getJSONArray("persons");
                 for (int i=0; i<persons.length(); i++) {
@@ -32,8 +32,6 @@ public class ReadJson {
                     }
                 }
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
                 e.printStackTrace();
             }
 
