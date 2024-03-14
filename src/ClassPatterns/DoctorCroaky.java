@@ -1,4 +1,4 @@
-package Class;
+package ClassPatterns;
 
 import java.util.LinkedList;
 import java.util.List;
