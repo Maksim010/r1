@@ -11,6 +11,7 @@ import java.io.OutputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.io.IOException;
+//https://jsoup.org/cookbook/extracting-data/selector-syntax(синтаксис парсинга)
 
 public class TableBelarus {
     private static Document document;
