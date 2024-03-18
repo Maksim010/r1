@@ -25,5 +25,6 @@
     <orderEntry type="library" name="glassfish.jaxb.runtime3" level="project" />
     <orderEntry type="library" name="eduworks.json.ld" level="project" />
     <orderEntry type="library" name="json" level="project" />
+    <orderEntry type="library" name="jsoup" level="project" />
   </component>
 </module>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <excludeFromCompile>
       <directory url="file://$USER_HOME$/Downloads" includeSubdirectories="true" />
     </excludeFromCompile>
-    <bytecodeTargetLevel target="21">
+    <bytecodeTargetLevel target="11">
       <module name="Intro" target="" />
     </bytecodeTargetLevel>
   </component>
