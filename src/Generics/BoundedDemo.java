@@ -15,7 +15,7 @@ public class BoundedDemo {
         MBBounded<? super Pigeon> mbBounded3=new MBBounded<Bird>(new WhitePigeon());
     }
 }
-class MBBounded <T extends Animal>{
+class MBBounded <T extends Animal> {
     private T Object;
 
     public MBBounded(T object) {
